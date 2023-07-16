@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="Stylesheet" href="index.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h4>ITACHI</h4>
+        </div>
+        <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">contact</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">service</a></li>
+        </ul>
+        <div class="menu">
+            <div class="menuline"></div>
+            <div class="menuline"></div>
+            <div class="menuline"></div>
+        </div>
+    </nav>
+    <div class="container">
+
+    </div>
+
+
+
+
+
+
+
+
+
+    
+</body>
+<script>
+    const menu=document.querySelector('.menu');
+    const ul=document.querySelector('nav ul');
+    menu.addEventListener('click',()=>{
+        ul.classList.toggle("showmenu");
+
+    });
+</script>
+</html>
